@@ -1,0 +1,580 @@
+    body {
+    background-image: url(../download1.jpg);
+}
+
+
+h1 {
+    padding-top: 30px;
+    font-size: 40px;
+    color: rgb(255, 204, 35);
+    text-align: center;
+    text-decoration: underline;
+
+}
+
+p {
+    border: 2px solid rgba(109, 109, 252, 0.596);
+    font: bold ;
+    font-size: 18px;
+    color: yellow;
+    background-color: rgba(75, 87, 6, 0.692);
+}
+
+button{
+    box-sizing: 0 0 5px cyan,
+    0 0 25px cyan;
+    text-size-adjust: 15px;
+}
+
+button:hover {
+box-shadow: 0 0 5px cyan,
+0 0 25px cyan, 0 0 50px cyan,
+0 0 100px cyan, 0 0 200px cyan;
+}
+
+table 
+{
+    width: 800px;
+    background-color: rgb(196, 167, 125);
+}
+
+th,td {
+    padding: 8px;
+    text-align: center;
+    border: 2px solid rgba(30, 30, 114, 0.699);
+}
+
+h2 {
+    background-color: rgba(75, 87, 6, 0.692);
+    border: 2px solid  rgba(109, 109, 252, 0.596);
+    text-align: center;
+    color: yellow;
+}
+
+.daftar {
+    border: 4px dotted yellow;
+    display: block;
+    width: 70%;
+    height: 300px;
+    padding: 10px;
+    padding-top: 80px;
+    background-color: rgba(100, 148, 237, 0.384);
+    text-align: center;
+    margin-top: 20PX;
+    margin-left: auto;
+    margin-right: auto;
+    display: none;
+}
+
+
+#siswa{
+    border: 4px dotted yellow;
+    display: block;
+    width: 70%;
+    height: 450px;
+    padding: 10px;
+    padding-top: 80px;
+    background-color: rgba(100, 148, 237, 0.384);
+    text-align: center;
+    margin-top: 20PX;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#siswa div{
+    width: 250px;
+    height: auto;
+    background-color: rgb(196, 167, 125);
+    border: 3px solid rgba(30, 30, 114, 0.699);
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+#siswa div ol li{
+    text-align: left;
+    border-bottom: 1px solid black;
+    margin-right: 25px;
+}
+
+.jadwal-piket-kelas{
+    width: 100%;
+    height: 300px;
+    display: inline-block;
+}
+
+.jadwal-piket-kelas div{
+    display: inline-block;
+    width: 250px;
+    height: 200px;
+    background-color: rgb(196, 167, 125);
+    border: 3px solid rgba(30, 30, 114, 0.699);
+    margin-top: 10px;
+}
+
+.jadwal-piket-kelas div h4{
+    margin-top: 15px;
+    border-bottom: 2px solid yellow;
+    text-align: center;
+}
+
+.jadwal-piket-kelas div ul li{
+    margin-left: 10px;
+    text-align: left;
+    border-bottom: 1px solid black;
+    margin-right: 25px;
+}
+
+.foto{
+    width: 70%;
+    height: 300px;
+    border: 4px dotted yellow;
+    background-color:rgba(100, 148, 237, 0.384); 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#kumpulan div{
+    border: 2px black;
+    display: inline-block ;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.foto div img{
+    margin-left: 15%;
+    margin-right: 10%;
+    margin-top: 5%;
+    width: 384px;
+    height: 216px;
+    padding-right: 20px;
+
+}
+
+.video{
+    width: 70%;
+    height: 300px;
+    border: 4px dotted yellow;
+    background-color: rgba(100, 148, 237, 0.384);
+    margin-left: auto;
+    margin-right: auto;
+  
+}
+
+#kumpulan2 div{
+    display: inline-block;
+    
+}
+
+#kumpulan2 div video{
+    width: 384px;
+    height: 216px;
+    padding: 38px;
+    
+}
+
+
+
+
+/* tablet */
+@media (min-width: 500px) and (max-width: 768px) {
+    body {
+       background-color: cornsilk; 
+       background-image:none; 
+       
+
+    }
+    
+    h1 {
+        font-size: 40px;
+        color: cornflowerblue;
+        text-align: center;
+        text-decoration: underline;
+    
+    }
+    
+    p {
+        border: 2px solid cyan;
+        font: bold ;
+        font-size: 18px;
+        color: cornflowerblue;
+        background-color: rgba(12, 100, 216, 0.877);
+    }
+    
+    button{
+        box-sizing: 0 0 5px cyan,
+        0 0 25px cyan;
+        text-size-adjust: 15px;
+    }
+    
+    button:hover {
+    box-shadow: 0 0 5px cyan,
+    0 0 25px cyan, 0 0 50px cyan,
+    0 0 100px cyan, 0 0 200px cyan;
+    }
+    
+    table 
+    {
+        width: 500px;
+        background-color: rgba(12, 100, 216, 0.877);
+        border-radius: 10px;
+    }
+    
+    th,td {
+        padding: 8px;
+        text-align: center;
+        color: cornflowerblue;
+        border: 2px solid rgba(30, 30, 114, 0.699);
+    }
+    
+    h2 {
+        background-color: rgba(12, 100, 216, 0.877);
+        border: 2px solid  rgba(109, 109, 252, 0.596);
+        text-align: center;
+        color: cyan;
+    }
+    
+    .daftar {
+        border: 4px dotted cyan;
+        border-radius: 10px;
+        display: block;
+        width: 70%;
+        height: 300px;
+        padding: 10px;
+        padding-top: 80px;
+        background-color: rgba(100, 148, 237, 0.384);
+        text-align: center;
+        margin-top: 20PX;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    
+    #siswa{
+        border: 4px dotted cyan;
+        border-radius: 10px;
+        display: block;
+        width: 90%;
+        height: 400px;
+        padding: 5px;
+        padding-top: 80px;
+        background-color: rgba(100, 148, 237, 0.384);
+        text-align: center;
+        margin-top: 10PX;
+        margin-left: auto;
+        margin-right: auto;
+    
+    }
+    
+    #siswa div{
+        width: 200px;
+        height: auto;
+        border-radius: 10px;
+        color: cornflowerblue;
+        background-color: rgba(12, 100, 216, 0.877);
+        border: 3px solid rgba(30, 30, 114, 0.699);
+        display: inline-block;
+        padding-bottom: 5PX;
+        padding-right: 5px;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    
+    #siswa div ol li{
+        text-align: left;
+        border-bottom: 1px solid black;
+        margin-right: 25px;
+    }
+    
+    .jadwal-piket-kelas{
+        border: 4px dotted cyan;
+        border-radius: 10px;
+        display: block;
+        width: 90%;
+        height: 600px;
+        padding: 5px;
+        padding-top: 5px;
+        background-color: rgba(100, 148, 237, 0.384);
+        text-align: center;
+        margin-top: 3PX;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .jadwal-piket-kelas div{
+        display: inline-block;
+        width: 200px;
+        height: auto;
+        border-radius: 10px;
+        color: cornflowerblue;
+        background-color:  rgba(12, 100, 216, 0.877);
+        border: 3px solid rgba(30, 30, 114, 0.699);
+        padding-bottom: 5px;
+        padding-top: 5px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: auto;
+        
+    }
+    
+    .jadwal-piket-kelas div h4{
+        margin-top: 15px;
+        border-bottom: 2px solid  rgba(30, 30, 114, 0.699);
+        text-align: center;
+    }
+    
+    .jadwal-piket-kelas div ul li{
+        margin-left: 10px;
+        text-align: left;
+        border-bottom: 1px solid black;
+        margin-right: 25px;
+    }
+    
+    .foto{
+        width: 75%;
+        height: 300px;
+        border: 4px dotted cyan;
+        border-radius: 10px;
+        background-color: rgba(12, 100, 216, 0.877); 
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #kumpulan div{
+        border: 2px black;
+        display: inline-block ;
+        margin-top: 1%;
+        margin-bottom: 1%;
+    }
+    
+    .foto div img{
+        margin-left: 10%;
+        margin-right: 2%;
+        margin-top: 5%;
+        width: 250px;
+        height: 170px;
+        padding-right: 5px;
+        padding-top: 45px;
+    }
+    
+    .video{
+        width: 75%;
+        height: 300px;
+        border: 4px dotted cyan;
+        border-radius: 10px;
+        background-color: rgba(12, 100, 216, 0.877);
+        margin-left: auto;
+        margin-right: auto;
+      
+    }
+    
+    #kumpulan2 div{
+        display: inline-block;
+        
+    }
+    
+    #kumpulan2 div video{
+        width: 250px;
+        height: 170px;
+        padding: 5px;
+        padding-top: 60px;
+        padding-left: 15px;
+        
+    }
+
+}
+
+/* phone */
+@media (min-width:320px) and (max-width:425px) {
+    
+    body {
+        background-image: url(../cloud.webp); 
+     }
+     
+     h1 {
+         font-size: 30px;
+         color: darkblue;
+         text-align: center;
+     
+     }
+     
+     p {
+         border: 2px solid darkblue;
+         font: bold ;
+         font-size: 18px;
+         color: cornsilk;
+         background-color: rgba(0, 255, 255, 0.562);
+     }
+     
+     button{
+         box-sizing: 0 0 5px cyan,
+         0 0 25px cyan;
+         text-size-adjust: 15px;
+     }
+     
+     button:hover {
+     box-shadow: 0 0 5px cyan,
+     0 0 25px cyan, 0 0 50px cyan,
+     0 0 100px cyan, 0 0 200px cyan;
+     }
+     
+     table 
+     {
+         width: 50px;
+         background-color: rgba(0, 255, 255, 0.562);
+         border-radius: 10px;
+     }
+     
+     th,td {
+         padding: 3px;
+         text-align: center;
+         color: cornsilk;
+         border: 2px solid darkblue;
+     }
+     
+     h2 {
+         background-color: rgba(0, 255, 255, 0.562) ;
+         border: 2px solid  darkblue;
+         text-align: center;
+         color: cornsilk;
+     }
+     
+     .daftar {
+         border: 3px dotted darkblue;
+         border-radius: 10px;
+         display: block;
+         background-color: rgba(100, 148, 237, 0.384);
+         text-align: center;
+         padding-top: 40px;
+         margin-left: auto;
+         text-align: center;
+         width: 80%;
+         height: 200px; 
+         display: none;
+     }
+     
+     
+     #siswa{
+         border: 3px dotted darkblue;
+         border-radius: 10px;
+         display: block;
+         width: 80%;
+         height: 950px;
+         padding-top: 60px;
+         background-color: rgba(0, 255, 255, 0.562) ;
+         text-align: center;
+         margin-left: auto;
+         margin-right: auto;
+     
+     }
+     
+     #siswa div{
+         width: 250px;
+         height: auto;
+         background-color: rgba(100, 148, 237, 0.384);
+         border: 3px solid darkblue;
+         border-radius: 10px;
+         color: cornsilk;
+         display: inline-block;
+         
+     }
+     
+     #siswa div ol li{
+         text-align: left;
+         border-bottom: 1px solid black;
+         margin-right: 25px;
+     }
+     
+     .jadwal-piket-kelas{
+         border: 3px dotted darkblue;
+         display: block;
+         width: 85%;
+         height: 1250px;
+         background-color: rgba(0, 255, 255, 0.562);
+         border-radius: 10px;
+         text-align: center;
+         margin-left: auto;
+         margin-right: auto;
+       
+     }
+     
+     .jadwal-piket-kelas div{
+         display: inline-block;
+         width: 250px;
+         height: auto;
+         background-color: rgba(100, 148, 237, 0.384);
+         border: 3px solid darkblue;
+         border-radius: 10px;
+         color: cornsilk;
+         margin-left: auto;
+         margin-right: auto;
+         
+     }
+     
+     .jadwal-piket-kelas div h4{
+         margin-top: 15px;
+         border-bottom: 2px solid darkblue;
+         text-align: center;
+     }
+     
+     .jadwal-piket-kelas div ul li{
+         margin-left: 10px;
+         text-align: left;
+         border-bottom: 1px solid black;
+         margin-right: 25px;
+     }
+     
+     .foto{
+         width: 80%;
+         height: 530px;
+         border: 3px dotted darkblue;
+         background-color:rgba(0, 255, 255, 0.562); 
+         border-radius: 10px;
+         margin-left: auto;
+         margin-right: auto;
+     }
+     
+    
+    
+     
+     .foto div img{
+         margin-left: 15%;
+         margin-right: 2%;
+         margin-top: 5%;
+         width: 250px;
+         height: 160px;
+         padding-right: 5px;
+         padding-top: 45px;
+     
+     }
+     
+     .video{
+         width: 80%;
+         height: 530px;
+         border: 3px dotted darkblue;
+         background-color:rgba(0, 255, 255, 0.562);
+         border-radius: 10px;
+         margin-left: auto;
+         margin-right: auto;
+       
+     }
+     
+     #kumpulan2 div{
+         display: inline-block;
+         
+     }
+     
+     #kumpulan2 div video{
+         width: 250px;
+         height: 170px;
+         padding: 5px;
+         padding-top: 60px;
+         padding-left: 15%;
+     }
+
+}

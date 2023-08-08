@@ -1,5 +1,5 @@
     body {
-    background-image: url(img/download1.jpg);
+    background-image: url(./download1.jpg);
 }
 
 
@@ -393,7 +393,7 @@ h2 {
 @media (min-width:320px) and (max-width:425px) {
     
     body {
-        background-image: url(img/cloud.webp); 
+        background-image: url(./cloud.webp); 
      }
      
      h1 {
